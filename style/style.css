@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 15vh;
+    background-color: gray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items:center ;
+
+    padding-right: 150px;
+    padding-left: 100px;
+    border: 2px solid black;
+
+    margin-top: 20px;
+}
+
+.navbar > a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.navbar > a:nth-child(2){
+    color: red;
+}
+.navbar > a:nth-child(1){
+    color: greenyellow;
+}
