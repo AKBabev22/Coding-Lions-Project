@@ -1,34 +1,39 @@
+/* Removes automatic margins and paddings from every element*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* This is the css for the navigation bar */
 .navbar{
+    /* Set the size and color of the navigation bar */
     width: 100vw;
     height: 15vh;
     background-color: gray;
-
+    /* Set the navigation bar elements sizes and orientations */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     justify-items:center ;
-
+    /* Set the navigation bar sizes and orientations */
     padding-right: 150px;
     padding-left: 100px;
     border: 2px solid black;
-
     margin-top: 20px;
 }
-
+/* This is the css for the navigation bar elements */
 .navbar > a{
+    /* Remove URL highlighing */
     text-decoration: none;
     color: black;
     font-size: 30px;
 }
 .navbar > a:nth-child(2){
+    /* Set the font color for the Services page to be red */
     color: red;
 }
 .navbar > a:nth-child(1){
+    /* Set the font color for the Home page to be red */
     color: greenyellow;
 }
