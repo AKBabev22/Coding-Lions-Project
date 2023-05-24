@@ -1,0 +1,68 @@
+/* Removes automatic margins and paddings from every element*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* set background color*/
+body{
+    background-color: #FFCDBC;
+}
+/* This is the css for the navigation bar */
+.navbar{
+    /* Set the size and color of the navigation bar */
+    width: 10vw;
+    height: calc(100vh - 40px);
+    background-color: #F5853F;
+    border-radius: 10px;
+    /* Set the navigation bar elements sizes and orientations */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    float:left;
+    /* Set the navigation bar sizes, orientations and location*/
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 2px solid #130303;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: fixed;
+    
+}
+/* This is the css for the navigation bar elements */
+.navbar > a{
+    /* Remove URL highlighing */
+    text-decoration: none;
+    color: #7C3626;
+    font-size: 1.4vw;
+}
+.navbar > a:nth-child(4){
+    /* Set the font color for the Home page to be red */
+    color: #2D080A;
+}
+/*this is the code for the content bar*/
+.contbar{
+    /* Set the size and color of the navigation bar */
+    width: 85vw;
+    height: fit-content;
+    background-color: #F5853F;
+    border-radius:10px;
+    /* Set the navigation bar elements sizes and orientations */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    float:right;
+    /* Set the navigation bar sizes and orientations */
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #130303;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    /*set the font settings*/
+    font-size: 20px;
+}
