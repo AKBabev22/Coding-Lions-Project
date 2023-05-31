@@ -7,62 +7,48 @@
 
 /* set background color*/
 body{
-    background-color: #FFCDBC;
+    background-color: #CFDEE7;
 }
 /* This is the css for the navigation bar */
 .navbar{
     /* Set the size and color of the navigation bar */
-    width: 10vw;
-    height: calc(100vh - 40px);
-    background-color: #F5853F;
+    width: calc(100vw - 40px);
+    background-color: #92B4F4;
     border-radius: 10px;
     /* Set the navigation bar elements sizes and orientations */
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: left;
-    float:left;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:stretch;
     /* Set the navigation bar sizes, orientations and location*/
-    padding-right: 20px;
-    padding-left: 20px;
-    border: 2px solid #130303;
-    margin-left: 20px;
-    margin-top: 20px;
-    position: fixed;
+    padding: 20px;
+    border: 2px solid #5E7CE2;
+    margin: 20px;
     
 }
 /* This is the css for the navigation bar elements */
 .navbar > a{
     /* Remove URL highlighing */
     text-decoration: none;
-    color: #7C3626;
-    font-size: 1.4vw;
+    color: #0A369D;
+    font-size: 1.7vw;
 }
-.navbar > a:nth-child(1){
-    /* Set the font color for the Home page to be red */
-    color: #2D080A;
-}
-/*this is the code for the content bar*/
+/*this is the code for the top bar*/
 .contbar{
-    /* Set the size and color of the navigation bar */
-    width: 85vw;
+    /* Set the size and color of the top bar */
     height: fit-content;
-    background-color: #F5853F;
+    background-color: #92B4F4;
     border-radius:10px;
-    /* Set the navigation bar elements sizes and orientations */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: left;
-    float:right;
-    /* Set the navigation bar sizes and orientations */
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 2px solid #130303;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+    /* Set the top bar elements sizes and orientations */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    /* Set the top bar sizes and orientations */
+    padding: 20px;
+    border: 2px solid #5E7CE2;
+    margin: 20px;
     /*set the font settings*/
     font-size: 20px;
 }
+
