@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*set the default font*/
+    font-family:Arial;
 }
 
 /* set background color*/
@@ -12,7 +14,7 @@ body{
 /* This is the css for the navigation bar */
 .navbar{
     /* Set the size and color of the navigation bar */
-    width: 10vw;
+    width: 16vw;
     height: calc(100vh - 40px);
     background-color: #92B4F4;
     border-radius: 10px;
@@ -21,13 +23,10 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: left;
-    float:left;
     /* Set the navigation bar sizes, orientations and location*/
-    padding-right: 20px;
-    padding-left: 20px;
     border: 2px solid #5E7CE2;
-    margin-left: 20px;
-    margin-top: 20px;
+    padding: 20px;
+    margin: 20px;
     position: fixed;
     
 }
@@ -36,9 +35,9 @@ body{
     /* Remove URL highlighing */
     text-decoration: none;
     color: #4472CA;
-    font-size: 1.4vw;
+    font-size: 1vw;
 }
-.navbar > a:nth-child(5){
+.navbar > a:nth-child(6){
     /* Set the font color for the Home page to be red */
     color: #0A369D;
 }
@@ -51,7 +50,7 @@ body{
 /*this is the code for the content bar*/
 .contbar{
     /* Set the size and color of the navigation bar */
-    width: 85vw;
+    width: 80vw;
     height: fit-content;
     background-color: #92B4F4;
     border-radius:10px;
@@ -62,12 +61,9 @@ body{
     align-items: left;
     float:right;
     /* Set the navigation bar sizes and orientations */
-    padding-left: 20px;
-    padding-right: 20px;
     border: 2px solid #5E7CE2;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin: 20px;
 
     /*set the font settings*/
     font-size: 20px;

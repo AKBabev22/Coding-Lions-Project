@@ -28,7 +28,6 @@ body{
     padding: 20px;
     margin: 20px;
     position: fixed;
-    
 }
 /* This is the css for the navigation bar elements */
 .navbar > a{
@@ -37,7 +36,7 @@ body{
     color: #4472CA;
     font-size: 1vw;
 }
-.navbar > a:nth-child(5){
+.navbar > a:nth-child(2){
     /* Set the font color for the Home page to be red */
     color: #0A369D;
 }
