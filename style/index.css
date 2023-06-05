@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*set the default font*/
+    font-family:Arial;
 }
 
 /* set background color*/
@@ -34,7 +36,7 @@ body{
     font-size: 1.7vw;
 }
 /*this is the code for the top bar*/
-.contbar{
+.topbar{
     /* Set the size and color of the top bar */
     height: fit-content;
     background-color: #92B4F4;
@@ -45,8 +47,8 @@ body{
     justify-content:center;
     align-items: center;
     /* Set the top bar sizes and orientations */
-    padding: 20px;
     border: 2px solid #5E7CE2;
+    padding: 20px;
     margin: 20px;
     /*set the font settings*/
     font-size: 20px;
